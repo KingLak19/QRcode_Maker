@@ -2,11 +2,11 @@
 import pyqrcode
 import png
 
-# String which represents the QR code
+# Variable conatining link
 url = "https://www.youtube.com/watch?v=choF2JRgjHY"
 
-# Generate QR code
+# Generating QR code
 qrcode = pyqrcode.create(url)
 
-# Create and save the png file naming "myqr.png"
+# Create and save the png file
 qrcode.png('QRCODE.png', scale = 6)
