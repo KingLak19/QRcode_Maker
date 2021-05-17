@@ -8,6 +8,3 @@
 - Make a varible with the link that u want the QRcode to direct to
 - Use the create function of pyqrcode to make the QR code
 - Use the png function to save the QR code as a png
-
-
-Also make sure to scan my QR code to check if it's working 😜
